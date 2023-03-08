@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
        java 객체에 null 가능 여부가 어노테이션이 없다면 런타임단에서 null
        null의 여부를 알수 없을 때 해당 타입을 플랫폼타입이라 함
     * */
-    val persion = Person("공부하는 김경준")
+    val persion = Person("공부하는 김경준", 100)
     startWithA5(persion.name)
 
 }

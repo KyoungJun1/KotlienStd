@@ -45,15 +45,20 @@ fun main(args: Array<String>) {
     /*
         코틀린에서는 객체를 인스턴스화할 때에는 new를 사용x
      */
-     var person = Person("김경준")
+     var person = Person("김경준", 100)
 
 
 }
 
-class Person(s: String) {
+class Person(s: String, i: Int) {
 
     val name: String
         get() {
             TODO()
         }
+    val age : Int
+        get(){
+            TODO()
+        }
+
 }

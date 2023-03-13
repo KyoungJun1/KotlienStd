@@ -2,6 +2,7 @@ import java.lang.IllegalArgumentException
 
 fun main(args: Array<String>) {
 
+    
     /*
       2강 코틀린에서 null을 다루는 방법
      */
